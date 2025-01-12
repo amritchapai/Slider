@@ -1,0 +1,57 @@
+body {
+  background: linear-gradient(to right, #ffb871, #dd5380, #7545a9);
+  height: 100vh;
+  margin: 0;
+}
+
+section {
+  height: 50vh;
+  width: 30vw;
+  background-color: rgba(255, 255, 0, 0.3);
+  place-self: center;
+  margin-top: 100px;
+  border-radius: 0.8rem;
+  padding: 0.8rem;
+  box-sizing: border-box;
+
+}
+
+.rectangle {
+  background-color: #cadf7e;
+  border-radius: 0.8rem;
+}
+
+.big {
+  width: 100%;
+  height: 50%;
+}
+
+.medium {
+  width: 100%;
+  height: 15px;
+}
+
+.small {
+  width: 50%;
+  height: 10px;
+}
+
+.container {
+  display: flex;
+  gap: 9px;
+  margin-top: 25px;
+}
+.container .circle {
+  width: 45px;
+  height: 45px;
+  background-color: aqua;
+  border-radius: 100%;
+}
+.container .rectangles {
+  display: flex;
+  flex-direction: column;
+  margin: 1px 0;
+  height: 45px;
+  width: 100%;
+  justify-content: space-between;
+}
